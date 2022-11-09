@@ -7,3 +7,4 @@ To setup
 1. Open the command palette (`Ctrl`+`Shift`+`P`)
 1. Search for `Tasks: Run Task` and select it
 1. Run the task `Configure single line comment symbol for ARM language extension`
+1. In the `language-configuration.json` file, set the `lineComment` value to `;`

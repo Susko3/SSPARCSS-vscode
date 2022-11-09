@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Assemble and load",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "& '${workspaceFolder}/.vscode/scripts/Assemble.ahk' '${workspaceFolder}' '${file}'",
+            "terminalName": "SSPARCSS",
+            "showTerminal": false,
+            "preLaunchTask": "Setup task"
+        }
+    ],
+}

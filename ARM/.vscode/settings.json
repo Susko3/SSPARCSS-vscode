@@ -1,0 +1,23 @@
+{
+    "debug.openDebug": "neverOpen",
+    "workbench.colorTheme": "Default Dark+",
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "*.system": true,
+        "**/*.e": true,
+        "**/*.a.lock": true,
+        "**/assembler.ini*": true,
+        "simulator.ini": true,
+        "readme.txt": true,
+        // "**/*.assembler": true,
+    },
+    "files.associations": {
+        "*.a": "arm"
+    },
+    "[arm]": {
+        "editor.tabSize": 8,
+        "editor.detectIndentation": false,
+        "editor.useTabStops": true,
+        "editor.insertSpaces": false
+    }
+}

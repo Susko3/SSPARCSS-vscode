@@ -19,11 +19,7 @@ class Assemble
             this.CurrentAssemblyFile := ""
         }
 
-        if (A_ComputerName != "MSI-X570-A-PRO" &&
-            A_ComputerName != "ThinkPad-E15")
-        {
-            this.WaitForClose()
-        }
+        this.WaitForClose()
         ExitApp()
     }
 

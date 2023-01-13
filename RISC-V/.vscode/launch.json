@@ -7,8 +7,7 @@
             "request": "launch",
             "command": "& '${workspaceFolder}/.vscode/scripts/Assemble.ahk' '${workspaceFolder}' '${file}'",
             "terminalName": "SSPARCSS",
-            "showTerminal": false,
-            "preLaunchTask": "Setup task"
+            "showTerminal": false
         }
     ],
 }

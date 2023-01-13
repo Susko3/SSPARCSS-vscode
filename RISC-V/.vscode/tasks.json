@@ -15,6 +15,20 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Configure single line comment symbol for RISC-V language extension (json)",
+            "type": "shell",
+            "command": "& \"${extensionInstallFolder:zhwu95.riscv}/language-configuration.json\"",
+            "group": "none",
+            "problemMatcher": []
+        },
+        {
+            "label": "Configure single line comment symbol for RISC-V language extension (tmLanguage)",
+            "type": "shell",
+            "command": "& notepad \"${extensionInstallFolder:zhwu95.riscv}/syntaxes/riscv.tmLanguage\"",
+            "group": "none",
+            "problemMatcher": []
         }
     ]
 }
